@@ -1,0 +1,2 @@
+## Naming conventions
+Naming conventions should be treated as law. A project that conforms to a naming convention is able to have its assets managed, searched, parsed, and maintained with incredible ease.
