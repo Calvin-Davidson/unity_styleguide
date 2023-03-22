@@ -44,7 +44,7 @@ Depending on how your asset variants are made, you can chain together variant na
 | ------------------------ | ------------------ |
 | Skeletal Mesh            | SK\_Calvin         |
 | Material                 | M\_Calvin          |
-| Texture (Diffuse/Albedo) | T\_Calvin\_D       |
+| Texture (Diffuse/Albedo) | T\_Calvin\_A       |
 | Texture (Normal)         | T\_Calvin\_N       |
 | Texture (Evil Diffuse)   | T\_Calvin\_Evil\_D |
 
@@ -170,7 +170,7 @@ All meshes in 3ds Max are lowercase to differentiate them from their FBX export.
 | Asset Type                          | Prefix | Suffix | Notes                         |
 | ----------------------------------- | ------ | ------ | ----------------------------- |
 | Texture                             | T\_    |        |                               |
-| Texture (Diffuse/Albedo/Base Color) | T\_    | \_D    |                               |
+| Texture (Diffuse/Albedo/Base Color) | T\_    | \_A    |                               |
 | Texture (Normal)                    | T\_    | \_N    |                               |
 | Texture (Roughness)                 | T\_    | \_R    |                               |
 | Texture (Alpha/Opacity)             | T\_    | \_A    |                               |
