@@ -173,7 +173,7 @@ All meshes in 3ds Max are lowercase to differentiate them from their FBX export.
 | Texture (Diffuse/Albedo/Base Color) | T\_    | \_A    |                               |
 | Texture (Normal)                    | T\_    | \_N    |                               |
 | Texture (Roughness)                 | T\_    | \_R    |                               |
-| Texture (Alpha/Opacity)             | T\_    | \_A    |                               |
+| Texture (Alpha/Opacity)             | T\_    | \_O    |                               |
 | Texture (Ambient Occlusion)         | T\_    | \_AO   |                               |
 | Texture (Bump)                      | T\_    | \_B    |                               |
 | Texture (Emissive)                  | T\_    | \_E    |                               |
