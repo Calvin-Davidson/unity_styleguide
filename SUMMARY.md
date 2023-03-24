@@ -2,15 +2,16 @@
 
 * [Unity Styleguide](README.md)
 
-## Workflow & Versiebeheer
+## Workflow & Version Control
 
-* [Starting a new project](workflow-and-versiebeheer/Een-nieuw-project-starten.md)
-* [Asset Workflows](workflow-and-versiebeheer/Asset-Workflows/Readme.md)
-  * [Audio](workflow-and-versiebeheer/Asset-Workflows/Audio.md)
-  * [Models](workflow-and-versiebeheer/asset-workflows/models.md)
-  * [Textures](workflow-and-versiebeheer/Asset-Workflows/Textures.md)
-  * [Unity Asset Import settings](workflow-and-versiebeheer/Asset-Workflows/Unity-Asset-Import-Settings.md)
-* [Workflow](workflow-and-versiebeheer/Workflow.md)
+* [Starting a new project](workflow-and-version-control/een-nieuw-project-starten.md)
+* [Asset Workflows](workflow-and-version-control/asset-workflows/README.md)
+  * [Audio](workflow-and-version-control/asset-workflows/audio.md)
+  * [Models](workflow-and-version-control/asset-workflows/models.md)
+  * [Textures](workflow-and-version-control/asset-workflows/textures.md)
+  * [Shaders](workflow-and-version-control/asset-workflows/shaders.md)
+  * [Unity Asset Import settings](workflow-and-version-control/asset-workflows/unity-asset-import-settings.md)
+* [Gitflow](workflow-and-version-control/workflow.md)
 
 ## Unity Engine
 
@@ -24,7 +25,7 @@
   * [Folder Names](unity-engine/Content-Directory-Structure/Folder-Names.md)
   * [Developer folder](unity-engine/Content-Directory-Structure/Developer-Folder.md)
   * [Do not create an assets folder](unity-engine/Content-Directory-Structure/Do-Not-Create-Assets-Folder.md)
-  * [MaterialLibrary](unity-engine/Content-Directory-Structure/MaterialLibrary.md)
+  * [Material Library](unity-engine/Content-Directory-Structure/MaterialLibrary.md)
   * [Scenes](unity-engine/Content-Directory-Structure/Scenes.md)
   * [Very large assets](unity-engine/Content-Directory-Structure/Very-Large-Assets.md)
 
@@ -42,7 +43,7 @@
 * [Platform-Specific Code](code-conventions/Platform-Specific-code.md)
 * [API Design Guidelines](code-conventions/API-Design-Guidelines.md)
 
-## Bronnen
+## Sources
 
 * [justingwasileno's unity styleguide](https://github.com/justinwasilenko/Unity-Style-Guide#levels)
 * [C# code conventies](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)

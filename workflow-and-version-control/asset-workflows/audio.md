@@ -4,6 +4,6 @@ Audio must be recorded in WAV or OGG formats, in a noise-less environment. Recor
 
 Audio editing will be done in the Cakewalk DAW. There filters and other editing will be applied to source files. Composing will be done there through Midi sequencing and VST plugins. All edited audio should be exported in WAV format, with a sampling rate of at least 32KHz and a 24-bit channel depth.
 
-In Unity the source files should be imported in dedicated folders divided by sound cue. Each sound cue will reside in that folder alongside its edited source files.
+In Unity the source files should be imported in dedicated folders divided by sound cue, after making a new branch for the import. Each sound cue will reside in that folder alongside its edited source files. The sound engineer should create and configure the sound cue to make the imported assets ready for use. Once finished, a pull request is made.
 
 [Great guide on Unity Audio Import Optimization](https://www.gamasutra.com/blogs/ZanderHulme/20190107/333794/Unity\_Audio\_Import\_Optimisation\_\_getting\_more\_BAM\_for\_your\_RAM.php)
