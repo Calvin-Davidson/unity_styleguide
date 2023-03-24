@@ -40,13 +40,13 @@ Depending on how your asset variants are made, you can chain together variant na
 
 **Character**
 
-| Asset Type               | Asset Name         |
-| ------------------------ | ------------------ |
-| Skeletal Mesh            | SK\_Calvin         |
-| Material                 | M\_Calvin          |
-| Texture (Diffuse/Albedo) | T\_Calvin\_A       |
-| Texture (Normal)         | T\_Calvin\_N       |
-| Texture (Evil Diffuse)   | T\_Calvin\_Evil\_D |
+| Asset Type                     | Asset Name       |
+| ------------------------------ | ---------------- |
+| Skeletal Mesh                  | SK\_Calvin       |
+| Material                       | M\_Calvin        |
+| Texture (Diffuse/Albedo)       | T\_Calvin\_A     |
+| Texture (Normal)               | T\_Calvin\_N     |
+| Texture (2nd variant, Diffuse) | T\_Calvin\_02\_D |
 
 **Prop**
 
@@ -101,7 +101,7 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 | Static Mesh        | SM\_   |            |                                                                                                          |
 | Skeletal Mesh      | SK\_   |            |                                                                                                          |
 | Texture            | T\_    | \_?        | See [Textures](Asset-Naming.md#anc-textures)                                                             |
-| Particle System    | PS\_   |            |                                                                                                          |
+| Particle System    | P\_    |            |                                                                                                          |
 | Shader             | SH\_   |            |                                                                                                          |
 
 **4.2.1a 3D Models (FBX Files)**
@@ -110,9 +110,9 @@ PascalCase
 
 | Asset Type    | Prefix | Suffix | Notes |
 | ------------- | ------ | ------ | ----- |
-| Characters    | CH\_   |        |       |
-| Vehicles      | VH\_   |        |       |
-| Weapons       | WP\_   |        |       |
+| Characters    | C\_    |        |       |
+| Vehicles      | V\_    |        |       |
+| Weapons       | W\_    |        |       |
 | Static Mesh   | SM\_   |        |       |
 | Skeletal Mesh | SK\_   |        |       |
 | Skeleton      | SKEL\_ |        |       |
@@ -176,6 +176,7 @@ All meshes in 3ds Max are lowercase to differentiate them from their FBX export.
 | Texture (Alpha/Opacity)             | T\_    | \_O    |                               |
 | Texture (Ambient Occlusion)         | T\_    | \_AO   |                               |
 | Texture (Bump)                      | T\_    | \_B    |                               |
+| Texture (Height)                    | T\_    | \_H    |                               |
 | Texture (Emissive)                  | T\_    | \_E    |                               |
 | Texture (Mask)                      | T\_    | \_M    |                               |
 | Texture (Specular)                  | T\_    | \_S    |                               |
@@ -188,7 +189,7 @@ All meshes in 3ds Max are lowercase to differentiate them from their FBX export.
 
 **4.2.6.1 Texture Packing**
 
-It is common practice to pack multiple layers of texture data into one texture. An example of this is packing Emissive, Roughness, Ambient Occlusion together as the Red, Green, and Blue channels of a texture respectively. To determine the suffix, simply stack the given suffix letters from above together, e.g. `_ERO`.
+It is common practice to pack multiple layers of texture data into one texture. An example of this is packing Metallic, Roughness, Ambient Occlusion together as the Red, Green, and Blue channels of a texture respectively. To determine the suffix, simply stack the given suffix letters from above together, e.g. `_ORM`.
 
 > It is generally acceptable to include an Alpha/Opacity layer in your Diffuse/Albedo's alpha channel and as this is common practice, adding `A` to the `_D` suffix is optional.
 
@@ -196,11 +197,12 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 
 **4.2.7 Miscellaneous**
 
-| Asset Type                      | Prefix | Suffix | Notes |
-| ------------------------------- | ------ | ------ | ----- |
-| Universal Render Pipeline Asset | URP\_  |        |       |
-| Post Process Volume Profile     | PP\_   |        |       |
-| User Interface                  | UI\_   |        |       |
+| Asset Type                            | Prefix | Suffix | Notes |
+| ------------------------------------- | ------ | ------ | ----- |
+| High Definition Render Pipeline Asset | HDRP\_ |        |       |
+| Universal Render Pipeline Asset       | URP\_  |        |       |
+| Post Process Volume Profile           | PP\_   |        |       |
+| User Interface                        | UI\_   |        |       |
 
 **4.2.8 Physics**
 
@@ -210,12 +212,13 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 
 **4.2.9 Audio**
 
-| Asset Type     | Prefix | Suffix | Notes                                                           |
-| -------------- | ------ | ------ | --------------------------------------------------------------- |
-| Audio Clip     | A\_    |        |                                                                 |
-| Audio Mixer    | MIX\_  |        |                                                                 |
-| Dialogue Voice | DV\_   |        |                                                                 |
-| Audio Class    |        |        | No prefix/suffix. Should be put in a folder called AudioClasses |
+| Asset Type     | Prefix | Suffix | Notes                                         |
+| -------------- | ------ | ------ | --------------------------------------------- |
+| Sound Clip     | S\_    |        |                                               |
+| Sound Cue      | SC\_   |        |                                               |
+| Audio Mixer    | MIX\_  |        |                                               |
+| Dialogue Voice | DV\_   |        |                                               |
+| Audio Class    | AC\_   |        | Should be put in a folder called AudioClasses |
 
 **4.2.10 User Interface**
 
@@ -226,6 +229,8 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 
 **4.2.11 Effects**
 
-| Asset Type      | Prefix | Suffix | Notes |
-| --------------- | ------ | ------ | ----- |
-| Particle System | PS\_   |        |       |
+| Asset Type             | Prefix | Suffix | Notes |
+| ---------------------- | ------ | ------ | ----- |
+| Color Lookup Table     | LUT\_  |        |       |
+| Post Processing Volume | PP\_   |        |       |
+| Particle System        | P\_    |        |       |

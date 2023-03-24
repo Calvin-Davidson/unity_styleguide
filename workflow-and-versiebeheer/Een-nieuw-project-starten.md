@@ -1,11 +1,11 @@
-﻿# Een nieuw unity project opzetten
+# Starting a new project
 
-Een nieuw unity project wordt altijd in de laatste LTS versie opgestart. Tenzij dit niet kan omdat je nieuwe of outdated systemen moet gebruiken binnen unity die niet op deze versie werken. 
+A nieuw unity project is always started in the latest LTS version, unless specific features of an older version are required for the project.
 
-Wanneer het nieuwe unity project is gemaakt voeg dan de unity gitignore toe aan het project. Hierna push je pas het project naar git.
+When you make the project, import the .gitignore down below before pushing, to remove any temporal or user generated files from the github repository.
 
+.gitignore
 
-De .gitignore
 ```gitignore
 # This .gitignore file should be placed at the root of your Unity project directory
 #
