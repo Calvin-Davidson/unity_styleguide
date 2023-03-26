@@ -1,15 +1,12 @@
-### Content Directory structure
+# Project content structure
 
-<pre>
+```
 Assets
-    Art
-        2D
-	    Sprites
-	    UI
-	3D
-	    Props
-	    Enviroment
-	    Creatures
+    Graphics
+	Materials
+	Models
+	Sprites
+	Prefabs ( prefab's with no logic attached )
     Scenes
         Frontend
         Act1
@@ -22,16 +19,16 @@ Assets
       	Debug
     	Shaders
     Prefabs
-        Architecture (Single use big objects)
-            DeathStar
-        Props (Repeating objects to fill a level)
-            ObjectSets
-                DeathStar
     Scripts
-        AI
-        Gameplay
-            Input
-        Tools
+        Runtime
+            Player
+            Inventory
+            Interaction
+        Editor
+            Player
+            Inventory
+            Interaction
+        Utilities
     Sound
         Characters
         Vehicles
@@ -43,4 +40,4 @@ Assets
     ExpansionPack (DLC)
     Plugins
     ThirdPartySDK  
-</pre>
+```
