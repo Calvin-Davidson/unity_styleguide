@@ -1,6 +1,6 @@
 # Starting a new project
 
-A nieuw unity project is always started in the latest LTS version, unless specific features of an older version are required for the project.
+A new unity project is always started in the latest LTS version, unless specific features of an older version are required for the project.
 
 When you make the project, import the .gitignore down below before pushing, to remove any temporal or user generated files from the github repository.
 
