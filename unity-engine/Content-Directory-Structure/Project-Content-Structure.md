@@ -2,11 +2,6 @@
 
 ```
 Assets
-    Graphics
-	Materials
-	Models
-	Sprites
-	Prefabs ( prefab's with no logic attached )
     Scenes
         Frontend
         Act1
@@ -18,6 +13,17 @@ Assets
     MaterialLibrary
       	Debug
     	Shaders
+    Meshes
+        Characters
+        Props
+            Bed
+                M_Bed.material
+                SM_Bed.fbx
+                AC_Bed.controller
+            Lamp
+                M_Lamp.material
+                SM_Lamp.fbx
+                AC_Lamp.controller
     Prefabs
     Scripts
         Runtime
